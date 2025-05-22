@@ -1,0 +1,12 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "random123",
+    "database": "tempdb",
+    "synchronize": true,
+    "logging": false,
+    "entities": ["src/entities/*.ts"]
+  }
+  
